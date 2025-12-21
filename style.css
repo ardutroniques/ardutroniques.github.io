@@ -39,7 +39,7 @@ li {
     color: rgb(255,255,255);
 }
 img {
-    width: 90%;
+    width: 100%;
     border-radius: 20px;
 }
 video {
@@ -152,3 +152,4 @@ footer {
     background-color: rgb(255,255,255);
 
 }
+
