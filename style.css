@@ -42,7 +42,8 @@ img {
     width: 100%;
     border-radius: 20px;
 }
-video {
+video {
+    width: 100%;
     border-radius: 20px;
 }
 iframe {
