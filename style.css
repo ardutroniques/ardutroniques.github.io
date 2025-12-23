@@ -39,11 +39,11 @@ li {
     color: rgb(255,255,255);
 }
 img {
-    width: 100%;
+    width: 95%;
     border-radius: 20px;
 }
 video {
-    width: 100%;
+    width: 95%;
     border-radius: 20px;
 }
 iframe {
@@ -158,5 +158,6 @@ footer {
     grid-template-columns:repeat(auto-fit,minmax(150px, 1fr));
     gap:10px;
 }
+
 
 
