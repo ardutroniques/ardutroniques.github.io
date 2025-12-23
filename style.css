@@ -124,7 +124,6 @@ footer {
     border: 2px solid rgb(255,255,255);
     border-color: rgb(255,255,255) ;
     border-radius: 25px;
-    display:flex;
     color: inherit; 
     transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
@@ -157,6 +156,7 @@ footer {
     grid-template-columns:repeat(auto-fit,minmax(150px, 1fr));
     gap:10px;
 }
+
 
 
 
