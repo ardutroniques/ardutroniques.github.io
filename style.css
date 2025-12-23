@@ -38,13 +38,11 @@ li {
     font-size: 20px;
     color: rgb(255,255,255);
 }
-img {
-    width: 95%;
-    border-radius: 20px;
-}
+img,
 video {
-    width: 95%;
+    width: 98%;
     border-radius: 20px;
+    padding:1%;
 }
 iframe {
     width: 100%;
@@ -159,6 +157,7 @@ footer {
     grid-template-columns:repeat(auto-fit,minmax(150px, 1fr));
     gap:10px;
 }
+
 
 
 
