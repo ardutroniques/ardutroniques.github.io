@@ -35,7 +35,7 @@ p,
 li {
     font-family: 'Montserrat',sans-serif;
     font-style: italic;
-    font-size: 30px;
+    font-size: 22px;
     color: rgb(255,255,255);
 }
 img,
@@ -159,6 +159,7 @@ footer {
 }
 .build {
     height:500px;
+
 
 
 
