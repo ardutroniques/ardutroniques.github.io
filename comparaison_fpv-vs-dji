@@ -1,1 +1,16 @@
-
+<!doctype html>
+<html  lang="fr">
+    <link rel="stylesheet" href="style.css">
+    <head>
+        <title>Drone</title>
+    </head>
+    <body>
+        <header>
+            <iframe src="header.html" name="headeriframe"></iframe>
+        </header>
+        <main>
+        </main>
+        <footer>
+        </footer>
+    </body>
+</html>
