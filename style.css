@@ -49,6 +49,7 @@ iframe {
     width: 100%;
     height: auto;
     border: none;
+    frameborder:0;
 }
 footer {
     font-family: 'Montserrat',sans-serif;
