@@ -1,0 +1,101 @@
+<!doctype html>
+<html  lang="fr">
+    <link rel="stylesheet" href="style.css">
+    <head>
+        <title>Wled</title>
+    </head>
+    <body>
+        <header>
+            <iframe src="header.html" name="headeriframe"></iframe>
+        </header>
+        <main>
+            <div class="name"><h1>Triangle connecté Wled</h1></div>
+            <hr class="ligne">
+            <br>
+            <div class="info">
+                <div class="colonne1">
+                    <div class="année">
+                        <h2>ANNÉE</h2>
+                        <p>2025</p>
+                    </div>
+                    <div class="catégorie">
+                        <h2>CATÉGORIES</h2>
+                        <p>Conception<br>Programmation</p>
+                    </div>
+                    
+                    <div class="description">
+                        <h2>DESCRIPTION</h2>
+                        <p>Ce tutoriel vous explique comment construire un triangle
+                             "nanoleaf" à l'aide d'un ruban led et d'un ESP.Ce triangle
+                             se contrôle avec une application mobile,Home Assisstant ou un Stream Deck</p>
+                    </div>
+                    <div class="buttons">
+                        <h3><a href="https://github.com/Lucacayssol/Plante-IoT" class="button2">WLED ></a></h3>
+                    </div>
+                </div>
+                <div class="colonne2">
+                    <div class="matériel">
+                        <h2>MATÉRIEL REQUIS</h2>
+                        <ul>
+                            <li>D1 mini(ou autre carte Arduino disposant d'une connexion Wifi)</li>
+                            <li>Ruban led(je conseille le WS2812B,qui coûte environ 5€,max 100leds/m)</li>
+                            <li>Les pièces à imprimer en 3d</li>
+                        </ul>                        
+                    </div>
+                    <div class="outils">
+                        <h2>OUTILS NÉCESSAIRE</h2>
+                        <ul>
+                            <li>Ordinateur</li>
+                            <li>Imprimante 3d</li>
+                            <li>Fer à souder</li>
+                        </ul>
+                    </div>
+                    <div class="plateforme">
+                        <h2>PLATEFORME</h2>
+                        <p>WLED</p>
+                    </div>
+                    <div class="bonus">
+                        <h2>BONUS</h2>
+                        <ul>
+                            <li>Connexion à Home Assisstant</li>
+                            <li>Connexion à un Stream Deck</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <hr class="ligne">
+            <h2>TUTORIEL :</h2>
+            <hr class="ligne">
+            <div style="display:flex;gap:5%;">
+                <div style="width:65%;"><h2>Le câblage</h2>
+                    <p>Pour mener à bien ce projet, assurez vous d'avoir tous les composant.
+                        Vous allez commencez par couper votre ruban tous les 28,5cm environ,puis 
+                        souder votre carte Arduino à votre ruban led en suivant le brochage :
+                        <br>Vous pouvez utiliser le connecteur fourni avec vos leds pour le premier triangle,
+                        mais il faudra souder sur le ruban pour les suivants(si comme moi,vous avez pris plus de 100leds/m,
+                        la soudure est très compliqué).</p>
+                     <img src="photos/schema.jpg" style="width:250px;border-radius:20px;">
+                </div>
+                <img src="photos/wled_cable.jpg" style="width:30%;border-radius:20px;">
+            </div>
+            <br>
+            <hr class="ligne">
+            <h2>Configuration</h2>
+            <p>Vous cliquez sur le lien suivants :<a href="https://install.wled.me/" target="blank">Wled</a><br>
+                Vous avez juste à suivre les instructions de Wled qui sont trés claires.Une fois l'installation terminé,vous allez dans Config/Led Preferences et vous renseignez
+                le nombre de leds,le type de ruban(ici,c'est "WS28XX")</p>
+            <br>
+        </main>
+        <footer>
+            <iframe src="footer.html" name="footeriframe"></iframe>
+        </footer>
+    </body>
+</html>
+
+
+
+
+
+
+
