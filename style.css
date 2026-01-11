@@ -93,6 +93,7 @@ footer {
 .button_court {
     width: 100px;
 }
+.button_court,
 .button2:hover {
     box-shadow: 0 10px 25px rgb(202, 255, 0);
     background-color: rgb(202, 255, 0);
@@ -146,5 +147,6 @@ footer {
     gap:10px;
 
 }
+
 
 
