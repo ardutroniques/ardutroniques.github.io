@@ -78,13 +78,13 @@ footer {
 }
 .button2,
 .button_court {
-    color: rgb(202,255,0);
+    color: rgb(1,1,39);
     height: 50px;
     padding: 5px 25px;
     justify-content: center;
     align-items: center;
     display: flex;
-    border: 1px solid rgb(1,1,39);
+    border: 2px solid rgb(1,1,39);
     border-radius: 10px;
 }
 .button2 {
@@ -146,4 +146,5 @@ footer {
     gap:10px;
 
 }
+
 
